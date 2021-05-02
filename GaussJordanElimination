@@ -1,4 +1,4 @@
-# Gauss-Jordan Elimination #GaussJordanElimination.py
+# Gauss-Jordan Elimination 
 
 import numpy as np
 import copy
