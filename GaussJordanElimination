@@ -20,7 +20,7 @@ class GaussJordanElimination:
         tmp = copy.deepcopy(b[row1])
         b[row1] = b[row2]
         b[row2] = tmp
-        print("R"+str(row1)+"<->"+"R"+str(row2))
+        print("R"+str(row1+1)+"<->"+"R"+str(row2+1))
     def mul(self, row, k):
         A[row] = k*A[row]
         b[row] = k*b[row]
